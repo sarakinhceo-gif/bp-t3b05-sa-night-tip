@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="상암 유흥 꿀팁 블로그: 브로들이 직접 경험하고 추천하는 상암 밤문화 노하우. 전화 010-6279-0862">
+    <meta name="keywords" content="상암 유흥 꿀팁, 상암 술집 추천, 상암 맛집, 상암 밤문화, 상암 클럽, 상암 유흥주점, 상암 놀거리">
+    <meta name="robots" content="index, follow">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-acid-yellow">
+    <link rel="canonical" href="https://t3b05-sa-night-tip.vercel.app/blog">
+    <meta property="og:title" content="상암 유흥 꿀팁 블로그 - 브로들이 전하는 진짜 정보">
+    <meta property="og:description" content="상암에서 놀고 싶은데 어디로 갈지 모르겠어? 형들이 찐으로 추천하는 상암 유흥 스팟과 꿀팁 대방출! 전화 010-6279-0862">
+    <meta property="og:url" content="https://t3b05-sa-night-tip.vercel.app/blog">
+    <meta property="og:type" content="article">
+    <title>상암 유흥 꿀팁 블로그 - 브로들이 전하는 진짜 정보</title>
+    <style>
+        /* RESET & BASE */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: #1a1a1a;
+            color: #f0f0f0;
+            font-family: 'Arial Black', 'Impact', 'Arial Narrow', sans-serif;
+            line-height: 1.5;
+            overflow-x: hidden;
+            letter-spacing: 0.02em;
+        }
+        a {
+            color: #f4e04d;
+            text-decoration: none;
+            border-bottom: 2px solid transparent;
+            transition: all 0.1s ease;
+        }
+        a:hover {
+            color: #ff3366;
+            border-bottom-color: #ff3366;
+        }
+
+        /* TYPOGRAPHY */
+        h1, h2, h3, h4 {
+            font-family: 'Impact', 'Arial Black', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            line-height: 1.1;
+        }
+        h1 {
+            font-size: clamp(2.5rem, 8vw, 5rem);
+            color: #f4e04d;
+            text-shadow: 4px 4px 0 #000;
+            margin-bottom: 0.5rem;
+        }
+        h2 {
+            font-size: clamp(2rem, 6vw, 3.5rem);
+            color: #f4e04d;
+            border-left: 8px solid #ff3366;
+            padding-left: 1rem;
+            margin: 2rem 0 1.5rem;
+        }
+        h3 {
+            font-size: clamp(1.4rem, 4vw, 2.2rem);
+            color: #fff;
+            margin: 1.5rem 0 0.5rem;
+        }
+        p {
+            font-size: 1.1rem;
+            margin-bottom: 1.2rem;
+            color: #d0d0d0;
+            max-width: 800px;
+        }
+
+        /* LAYOUT */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .section {
+            padding: 4rem 0;
+            border-bottom: 4px solid #f4e04d;
+            position: relative;
+            overflow: hidden;
+        }
+        .section:last-child {
+            border-bottom: none;
+        }
+        .section + .section {
+            margin-top: -2px; /* overlapping effect */
+            border-top: 4px dashed #ff3366;
+        }
+
+        /* NAV - brutalist style */
+        nav {
+            background: #111;
+            border-bottom: 6px solid #f4e04d;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        nav .logo {
+            font-size: 1.6rem;
+            font-weight: 900;
+            color: #f4e04d;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+        nav ul li a {
+            font-weight: bold;
+            font-size: 1.1rem;
+            padding: 0.3rem 0.6rem;
+            border: 2px solid transparent;
+        }
+        nav ul li a:hover {
+            border-color: #f4e04d;
+            background: #222;
+        }
+        nav .tel-link {
+            font-size: 1.2rem;
+            color: #f4e04d;
+            border: 2px solid #f4e04d;
+            padding: 0.4rem 1rem;
+        }
+        nav .tel-link:hover {
+            background: #f4e04d;
+            color: #111;
+        }
+
+        /* Blog article card style */
+        .blog-article {
+            background: #222;
+            padding: 2rem;
+            border: 4px solid #f4e04d;
+            margin-bottom: 2rem;
+        }
+        .blog-article .meta {
+            font-size: 0.9rem;
+            color: #888;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+            border-bottom: 1px solid #444;
+            padding-bottom: 0.5rem;
+        }
+        .blog-article .highlight-box {
+            background: #1a1a1a;
+            border-left: 6px solid #ff3366;
+            padding: 1.2rem;
+            margin: 1.5rem 0;
+            font-size: 1.05rem;
+        }
+        .blog-article .highlight-box strong {
+            color: #f4e04d;
+        }
+        .blog-article ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .blog-article ul li {
+            padding: 0.7rem 0;
+            border-bottom: 1px dotted #444;
+            font-size: 1.05rem;
+        }
+        .blog-article ul li::before {
+            content: '▸ ';
+            color: #ff3366;
+            font-weight: bold;
+        }
+
+        /* FAQ */
+        .faq-item {
+            margin: 1rem 0;
+            padding: 1rem;
+            background: #1e1e1e;
+            border-left: 6px solid #f4e04d;
+        }
+        .faq-item h3 {
+            font-size: 1.3rem;
+            margin-bottom: 0.3rem;
+        }
+        .faq-item p {
+            margin: 0.2rem 0 0;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 12px;
+            }
+            nav .container {
+                flex-direction: column;
+                gap: 0.8rem;
+                text-align: center;
+            }
+            nav ul {
+                justify-content: center;
+                gap: 0.8rem;
+            }
+            h1 {
+                font-size: 2.5rem;
+            }
+            .blog-article {
+                padding: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- NAVIGATION (shared across pages) -->
+    <nav>
+        <div class="container">
+            <div class="logo">상암꿀팁</div>
+            <ul>
+                <li><a href="/">홈</a></li>
+                <li><a href="/blog">블로그</a></li>
+                <li><a href="/about">소개</a></li>
+                <li><a href="/contact">문의</a></li>
+            </ul>
+            <a href="tel:010-6279-0862" class="tel-link">📞 010-6279-0862</a>
+        </div>
+    </nav>
+
+    <!-- BLOG SECTION -->
+    <section class="section">
+        <div class="container">
+            <h1>🎯 상암 유흥 꿀팁 블로그</h1>
+            <p class="subhead" style="font-size:1.3rem; color:#ccc; margin-bottom:2rem;">
+                브로들이 직접 부딪히며 얻은 <strong style="color:#f4e04d;">찐팁</strong>만 모았다.
+            </p>
+
+            <!-- 블로그 게시물 1편 -->
+            <div class="blog-article">
+                <div class="meta">
+                    <span>📅 2025.03.15</span> &nbsp;|&nbsp; 
+                    <span>✍️ 브로 현수</span> &nbsp;|&nbsp;
+                    <span>🏷️ 유흥 꿀팁, 상암 술집, 분위기</span>
+                </div>
+                <h2>처음 상암 가는 놈들을 위한 5가지 꿀팁</h2>
+                <p>
+                    야, 형! 상암 처음 가는데 어디서 놀아야 할지 막막하지? 
+                    내가 3년 동안 상암에서 밤 새며 얻은 <strong>찐 경험</strong>을 다 알려준다. 
+                    광흥창역에서 내려서 걸어오는 길에 벌써 분위기 좋은 곳 많더라.
+                </p>
+
+                <div class="highlight-box">
+                    <strong>💡 꿀팁 #1:</strong> 
+                    월드컵 경기장 근처 술집은 금요일 밤 10시 이후 자리 잡기 빡세다. 
+                    <strong>미리 전화 예약</strong>하고 가라. 전화번호는 010-6279-0862. 
+                    여기로 연락하면 내가 아는 단속 피하는 꿀팁도 알려줌 ㅋㅋ
+                </div>
+
+                <h3>📍 꿀팁 #2: 골목 안쪽에 진짜 맛집 있다</h3>
+                <p>
+                    큰길가에 번쩍이는 간판에 속지 마라. 
+                    상암동 주택가 골목 안으로 쭉 들어가면 
+                    현지인들만 아는 <strong>소주 맛집</strong>이 숨어있어. 
+                    내가 단골인 '형네포차'는 안주도 푸짐하고 분위기도 쾌적해.
+                </p>
+
+                <h3>📍 꿀팁 #3: 클럽보다는 스탠딩 펍</h3>
+                <p>
+                    상암 클럽은 주말에 입장료도 비싸고 줄도 길어. 
+                    차라리 <strong>스탠딩 펍 3~4곳</strong>을 돌아다니는 게 훨씬 재밌더라. 
+                    DJ펍, 락바, 재즈바 다 걸어서 10분 거리에 있어.
+                </p>
+
+                <div class="highlight-box">
+                    <strong>🍺 꿀팁 #4:</strong> 
+                    '상암역 3번 출구' 근처에 24시 편의점 앞에 
+                    <strong>야매 주차장</strong> 같은 곳 있는데 거기 차 대지 마. 
+                    단속 자주 온다. 대신 공영주차장 이용해.
+                </div>
+
+                <h3>📍 꿀팁 #5: 늦은 시간에는 택시보다 대리운전</h3>
+                <p>
+                    상암에서 자정 넘어 택시 잡는 건 지옥이다. 
+                    미리 <strong>대리운전 앱</strong> 켜놓고, 
+                    만약을 대비해 번호 저장해! 내가 쓰는 대리기사 형 전화도 알려줄게: 
+                    <strong>010-6279-0862</strong> (내 번호 아님, 내가 아는 형 번호임 ㅋㅋ)
+                </p>
+
+                <p style="margin-top:2rem; font-style:italic; color:#f4e04d;">
+                    — 형아들아, 다음 편에서는 상암 단속 피하는 꿀팁 가져올게. 
+                    궁금하면 전화해!
+                </p>
+            </div>
+
+            <!-- FAQ (선택적 추가) -->
+            <h2 style="margin-top:3rem;">❓ 자주 묻는 질문</h2>
+            <div class="faq-item">
+                <h3>Q: 상암에서 첫 데이트하기 좋은 술집?</h3>
+                <p>A: 분위기 좋은 ‘루프탑바’ 강추! 경기장 뷰도 예쁘고 칵테일도 맛있어. 다만 주말엔 예약 필수야. 전화 문의 010-6279-0862</p>
+            </div>
+            <div class="faq-item">
+                <h3>Q: 상암 유흥 단속 시간대 알려줘</h3>
+                <p>A: 보통 새벽 2시~4시 사이에 집중 단속 들어오더라. 그 시간엔 조용한 포차나 노래방이 안전. 자세한 건 전화로 알려줄게!</p>
+            </div>
+            <div class="faq-item">
+                <h3>Q: 혼자 가도 괜찮은 곳?</h3>
+                <p>A: 당연하지! 혼술하기 좋은 ‘카운터석’ 있는 이자카야 많아. 상암역 앞 골목에 3곳 정도 있는데 나중에 따로 포스팅할게.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER (간단하게) -->
+    <footer class="section" style="padding:2rem 0; text-align:center; border-top:4px solid #f4e04d;">
+        <div class="container">
+            <p style="color:#888;">© 2025 상암유흥꿀팁. All rights reserved. | 문의: 010-6279-0862</p>
+        </div>
+    </footer>
+</body>
+</html>
